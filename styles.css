@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 550px;
+    height: 400px;
+    background-color: rgb(196, 196, 196);
+    margin-top: 100px;
+}
+
+.head {
+    width: 550px;
+    height: 100px;
+    /*outline: 5px solid red;*/
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Handlee', cursive;
+    margin-left: 40px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.body {
+    width: 550px;
+    height: 200px;
+    /*outline: 5px solid darkmagenta;*/
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+font-size: 20px;
+/*outline: 3px solid green;*/
+width: 1000%;
+margin-left: 40px;
+font-family: 'Handlee', cursive;
+}
+
+.data {
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.name, .email, .comment {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 20px;
+    background-color: rgb(196, 196, 196);
+    font-family: 'Handlee', cursive;
+  
+    
+}
+
+.footer {
+    width: 550px;
+    height: 100px;
+    /*outline: 5px solid royalblue;*/
+    position: relative;
+}
+
+.button{
+    text-decoration: none;
+    padding: 1px 4px 6px;
+    font-family: 'Handlee', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: rgb(149, 150, 148);
+    border-bottom-color: black;
+    border-radius: 0px;
+    /*border-bottom: black;*/
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    margin: -25px 0 0 -25px;
+}
